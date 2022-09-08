@@ -31,9 +31,9 @@ main>div {
 .cart_tittle {
     background-color: black;
     width: 100%;
-    height: 37px;
-    border-radius: 7px;
-    margin-bottom: 7px;
+    height: 43px;
+    border-radius: 5px;
+    margin-bottom: 13px;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -47,15 +47,15 @@ main>div {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: 13px;
 }
 
 .item_list>li {
     background-color: black;
     width: 100%;
     height: 37px;
-    border-radius: 7px;
-    margin-bottom: 4px;
+    border-radius: 5px;
+    margin-bottom: 7px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,9 +70,9 @@ main>div {
 .total{
     background-color: rgb(160, 160, 160);
     width: 100%;
-    height: 37px;
-    border-radius: 7px;
-    margin-bottom: 3px;
+    height: 57px;
+    border-radius: 5px;
+    margin-bottom: 9px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,17 +89,19 @@ main>div {
     font-weight: 600;
     width: 100%;
     height: 37px;
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: rgb(56, 197, 115);
     border: 0;
+    color: #fff;
 }  
 
 .buy_button:hover{
     width: 100%;
     font-weight: 600;
     height: 37px;
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: rgb(35, 216, 59);
     border: 0;
+    color: #fff;
     box-shadow: 0px 0px 3px black;
 }   
